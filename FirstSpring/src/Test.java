@@ -14,5 +14,7 @@ public static void main(String[] args) {
     student1.displayInfo();  
     Student student2=(Student)factory.getBean("studentbean");  
     student2.displayInfo();  
+    Student student3=(Student)factory.getBean("studentbean");  
+    student3.displayInfo();  
 }  
 } 
