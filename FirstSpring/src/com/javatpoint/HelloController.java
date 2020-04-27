@@ -6,7 +6,7 @@ public class HelloController {
 @RequestMapping("/")  
     public String display()  
     {  
-	System.out.println("Parag Davkhar");
+	System.out.println("Parag Davkhar Try");
         return "index";  
     }     
 }  
